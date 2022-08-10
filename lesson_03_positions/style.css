@@ -1,0 +1,36 @@
+.static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+
+.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+
+.fixed {
+    border: 3px solid #73AD21;
+    position: fixed;
+    /* viewporthoz képest, mindig ugyanott van az ablakban */
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+
+.absolute {
+    border: 3px solid #73AD21;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+}
+
+div.sticky {
+    border: 3px solid #73AD21;
+    position: sticky;
+    top:10px;
+    padding: 5px;
+    background-color: aquamarine;
+}
