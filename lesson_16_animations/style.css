@@ -1,0 +1,39 @@
+.container {
+  width: 200px;
+  height: 90vh;
+  position: relative;
+  top: 5%;
+  float: left;
+  margin: 0 50px;
+}
+
+#animated_div {
+  align-items: center;
+  vertical-align:top;
+  width: 80px;
+  height: 80px;
+  background: transparent;
+  color: black;
+  position: relative;
+  animation: animated_div 4s infinite;
+}
+
+.icon-orange {
+  background-image: radial-gradient(red 10%, yellow 80%, white);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+@keyframes animated_div {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: 500px;
+    rotate: 720deg;
+  }
+  100% {
+    left: 0;
+  }
+}
