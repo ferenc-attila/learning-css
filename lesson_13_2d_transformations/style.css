@@ -1,0 +1,31 @@
+div:not(.container) {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.7);
+    border: 1px solid black;
+    box-shadow: 0 0 3px;
+}
+
+.translate {
+    transform: translate(50px, 10px);
+    -ms-transform: translate(50px, 10px);
+    margin: 50px 0;
+}
+
+.rotate {
+    transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    margin: 50px 0;
+}
+
+.scale {
+    transform: scale(2, 1.5);
+    -ms-transform: scale(2, 1.5);
+    margin: 50px 0;
+}
+
+.matrix {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+    -ms-transform: matrix(1, -0.3, 0, 1, 0, 0);
+    margin: 50px 0;
+}
